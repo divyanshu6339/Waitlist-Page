@@ -231,7 +231,7 @@ const WaitlistModal = ({ isOpen, onClose }) => {
                   #{waitlistNumber}
                 </p>
                 <p className="text-sm text-gray-500 mt-2">
-                  Check your inbox to see your exact spot
+                  Check your inbox to see your exact spot 😉
                 </p>
               </div>
             </div>
