@@ -1,4 +1,4 @@
-# ​ Waitlist Landing Page – React + Tailwind + OTP Modal
+# ​Waitlist Landing Page – React + Tailwind + OTP Modal
 
 A modern, responsive **React (Vite)** landing page with a **Waitlist Modal** featuring an OTP-based sign-up flow.
 
