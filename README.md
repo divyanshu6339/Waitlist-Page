@@ -1,12 +1,57 @@
-# React + Vite
+# ​ Waitlist Landing Page – React + Tailwind + OTP Modal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **React (Vite)** landing page with a **Waitlist Modal** featuring an OTP-based sign-up flow.
 
-Currently, two official plugins are available:
+Live Demo: [waitlist-page-beige.vercel.app](https://waitlist-page-beige.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+##  Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Dark theme with vibrant gradients** for visual appeal.
+- **Sticky navbar** with actionable “Join Waitlist” button.
+- **Hero section** featuring bold typography and a compelling tagline.
+- **Problem highlights & insight cards** using glassmorphism styling.
+- **Waitlist Modal** with multi-step flow:
+  1. **Email input** → Send OTP (simulated)
+  2. **OTP input** → Verification with retry limits
+  3. **Success confirmation** showing blurred waitlist position
+- **Mock backend** simulated using `localStorage`.
+- **Robust error handling**: invalid emails, wrong OTPs, retry limits.
+- **Loading states** with spinners using `lucide-react` icons.
+- **Accessibility-first**: semantic HTML, keyboard support, ARIA-friendly input.
+- **Fully responsive**, mobile-friendly layout.
+
+---
+
+##  Tech Stack
+
+- **Framework**: React (Vite)
+- **Styling**: Tailwind CSS
+- **Icons**: lucide-react
+- **State Management**: React Hooks (`useState`)
+- **Mock API**: `localStorage` to simulate sending and verifying OTPs
+
+---
+
+##  Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/divyanshu6339/Waitlist-Page.git
+
+cd Waitlist-Page
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+Deployment
+Easily deploy your project to Vercel (already live) or Netlify:
+
+Push code to GitHub.
+
+Import the repository on Vercel or Netlify.
+
+Click deploy — your landing page will be live shortly!
