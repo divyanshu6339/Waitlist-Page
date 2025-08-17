@@ -282,7 +282,7 @@ const LandingPage = () => {
             onClick={() => setIsModalOpen(true)}
             className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white text-lg font-semibold rounded-full transition-all duration-200 transform hover:scale-105"
           >
-            Join Waitlist — It's Free & Fast
+            Join Waitlist — It's Free & Fast 🚀
           </button>
         </div>
       </section>
